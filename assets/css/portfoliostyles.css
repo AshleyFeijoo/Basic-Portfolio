@@ -1,0 +1,27 @@
+.cards {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    /* z-index: -1; */
+  }
+  .cards img {
+  margin: 30px;
+  width: 350px;
+  }
+
+  .text-block {
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* right: 0; */
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    display: flex;
+  }
+
+  .card{
+      position: relative;
+  }
