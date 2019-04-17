@@ -12,8 +12,6 @@ header {
     margin-top: 0;
     border-bottom: #dddddd 1px solid;
     width: 100%;
-    position: fixed;
-    top: 0;
 }
 
 h1,{
@@ -35,6 +33,10 @@ li{
 
 a:visited{
     color: lightskyblue;
+}
+
+a:hover{
+    color: teal;
 }
 
 /* Class Tags */
@@ -63,15 +65,16 @@ a:visited{
     color: #4aaaa5;
     padding: 1em 1px;
     border-bottom:#dddddd 1px solid;
-    margin: 0 0 1em 0;
+
+    margin: 0 0 0 0;
 }
 
 .Main-content {
     border: #dddddd 1px solid;
-    margin-bottom: 40%;
+    margin-bottom: 10%;
     padding: 1.5em;
     background-color: #ffffff;
-    margin-top: 10em;
+
 }
 
 .main-header{
@@ -96,7 +99,7 @@ a:visited{
 }
 
 .footer{
-    border-top: #4aaaa5 8px solid;
+    border-top: #4aaaa5 5px solid;
     background-color: #666666;
     color: #ffffff;
     position: fixed;
@@ -105,7 +108,6 @@ a:visited{
     width: 100%;
     padding: 25px;
     text-align:center;
-
 }
 .foot{
     display: inline-block;
@@ -122,16 +124,34 @@ a:visited{
     padding: 0 5% 10% 0;
 }
 
-/* Portfolio CSs */
-
-/* .pic1{
-    float:right;
-    width:30%;
-    padding:20px;
+/* Contact form */
+.contact-form{
+    text-align: left;
+    margin-top: 1.5em;
+    font-size: .8rem;
 }
 
-.pic2{
-    /* float:right;
-    width:30%;
-    padding:20px; */
-} */
+
+textarea {
+    height: 15em;
+    border: 1px #cfcfcf solid;
+}
+
+label {
+    font-size: 1.15em;
+}
+
+.butn {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    background: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width:100px;
+  }
+  
+  .butn:hover {
+    background: #5ee0d7;
+    text-decoration: none;
+  }
