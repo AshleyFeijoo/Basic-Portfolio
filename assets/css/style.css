@@ -4,9 +4,10 @@ body{
     line-height: 1.5;
     font-size: .8em;
     color: #777777;
-    background-image: url("../images/qbkls.png");
+    background-image: url("../images/concrete_seamless.png");
     background-repeat: repeat;
     margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica, sans-serif';
 }
 header {
     background-color: white;
@@ -19,33 +20,48 @@ header {
     displaY: block;
 }
 
-h1,{
+h1,
+h2,
+h3{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
+}
 
+h2{
+    font-size:1.8em;
 }
-p{
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica, sans-serif';
-}
+
 
 li{
     border-right: #cfcfcf solid 1px;
-    padding-left: 5px;
-    padding-right:  5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* link tags */
 
-/* a:visited{
-    color: lightskyblue;
-} */
-
-a:hover{
-    color: lightcyan;
+a:visited{
+    color: rgba(112, 216, 219, 0.774);
 }
 
+a:hover{
+    color: rgb(105, 187, 187);
+    background-color:none;
+    border-radius: 5px;
+}
+
+li:last-child{
+    border-right:0;
+}
 a{
     color: #777777;
+}
+
+a:focus{
+
+}
+a:active{
+
 }
 
 /* Class Tags */
@@ -62,6 +78,15 @@ a{
     margin-left: -20px;
 }
 
+.name:hover{
+    background: #bac3c4; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #bac3c4 0%, #4aaaa5 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #bac3c4 0%,#4aaaa5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #bac3c4 0%,#4aaaa5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bac3c4', endColorstr='#4aaaa5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    Color format:     Comments
+}
+
 .head-one{
     text-align: left;
     color: #4aaaa5;
@@ -76,14 +101,12 @@ a{
     padding: 1.5em;
     background-color: #ffffff;
     margin: 10em auto;
-    /* height: auto; */
-    /* margin: 0 auto; */
-    width: 960px;
+    width: 940px;
     display: block;
 }
 
 .main-header{
-    width: 960px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -113,25 +136,24 @@ a{
     width: 100%;
     padding: 25px;
     text-align:center;
-
+    font-size: 10px;
 }
 .foot{
     display: block;
-    /* text-align: center; */
     position: absolute;
-    bottom: 5%;
     margin: 0 auto;
-    right: 0;
-    left: 40%;
+    right: 50%;
+    left: 45%;
 }
 
-.main-image {float: left;padding-right: 15px;}
+.main-image {float: left;padding-right: 15px;margin-left: 20px;}
 
 .second{
     font-size: 1.1em;
     padding-right: 5%;
     text-align: left;
     padding: 0 5% 0 0;
+    margin-left: 20px;
 }
 
 /* Contact form */
