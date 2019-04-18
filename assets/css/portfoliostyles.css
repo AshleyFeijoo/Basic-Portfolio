@@ -1,27 +1,23 @@
-.cards {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    flex-direction: row;
-    /* z-index: -1; */
-  }
-  .cards img {
-  margin: 30px;
-  width: 350px;
-  }
+figure {
+	margin: 0;
+	line-height: 0;
+	position: relative;
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-right: 20%;
+}
 
-  .text-block {
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* right: 0; */
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 300px;
-    display: flex;
-  }
-
-  .card{
-      position: relative;
-  }
+figcaption {
+	font-size: .9em;
+	line-height: 1.5;
+	color: #fff;
+	padding: 1em 0;
+	background:#4aaaa5;
+	position: absolute;
+	bottom: 20%;
+	width: 250px;
+}
+img {
+	width: 100%;
+}

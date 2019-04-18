@@ -31,13 +31,6 @@ li{
 
 /* link tags */
 
-a:visited{
-    color: lightskyblue;
-}
-
-a:hover{
-    color: teal;
-}
 
 /* Class Tags */
 .wrapper {
