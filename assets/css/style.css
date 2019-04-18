@@ -44,15 +44,12 @@ a:hover{
     color: lightcyan;
 }
 
+a{
+    color: #777777;
+}
+
 /* Class Tags */
-/* .wrapper {
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-    width: 960px;
-    margin-top: 2em;
-    box-sizing: border-box;
-} */
+
 .name{
     color: #ffffff;
     background-color: #4aaaa5;
@@ -68,7 +65,7 @@ a:hover{
 .head-one{
     text-align: left;
     color: #4aaaa5;
-    padding: 1em 1px;
+    padding: 1em 1em .4em 1em;
     border-bottom:#dddddd 1px solid;
     margin: 0 0 1em 0;
 }
