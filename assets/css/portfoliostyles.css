@@ -6,14 +6,14 @@ figure {
 	flex-direction: column;
 	flex-wrap: wrap;
 	/* padding-right: 20%; */
-	margin: 0 1em 1em 1em;
+	margin: 0 1em 3em 1em;
 }
 
 figcaption {
 	font-size: .9em;
 	line-height: 1.5;
 	color: #fff;
-	padding: 1em 0;
+	padding: .5em 0;
 	background:#4aaaa5;
 	position: absolute;
 	bottom: 5%;
